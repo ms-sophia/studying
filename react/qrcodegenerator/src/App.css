@@ -1,0 +1,54 @@
+@import url('http://fonts.cdnfonts.com/css/lilly');
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 30px;
+  background-color: #1D0C43;
+}
+
+h1{
+  font-family: 'Lilly', sans-serif;
+  font-size: 50px;
+  color:aqua;
+}
+
+.gen input{
+  height:35px;
+  width:250px;
+  font-size:20px;
+  padding-left:5px;
+  color:#E8D8F2;
+}
+
+button{
+  position:relative;
+  height:38px;
+  width:100px;
+  top: -2px;
+  font-size:18px;
+  border:none;
+  color:whitesmoke;
+  background-color:#A999F4;
+  box-shadow:2px 2px 5px #D6BEFC(75, 182, 74);
+  cursor:pointer;
+
+}
+
+button:active{
+  box-shadow:none;
+}
+
+.extra{
+  padding-top: 20px;
+  flex-direction: column;
+  align-items: cneter;
+  gap: 40px;
+}
+
+h5 {
+  color:#D6BEFC;
+}
