@@ -1,0 +1,125 @@
+CSS SELECTORS
+
+* 
+    - use for css reset
+    - applies to eleemnts, not inheritance
+
+.[name of class] - e.g .highlight
+    - is used to specifiy desgin to certian element, can be used multiple times
+#[name of id] - e.g #gray
+    - is used to specific design to a certain element but only once
+
+---------------------------------------------------------------------------------------------
+, - use for multiple elements with the same design (e.g h1,h2)
+
+CSS - cascading style sheets - so may order sya
+
+inheritance
+    - child inherits parent
+    - makes code DRY
+
+html
+    - may inheritance, put all the elements here for general
+
+body
+    - hindi lahat may inheritance, pili lang
+    - appears only one per page
+
+main
+    - apppers only one per page
+
+Order of specificness (1 least to 3 Most)
+1. elements SELECTOR
+2. class SELECTOR
+3. id SELECTOR
+
+
+specify calculator -  specificity.keegan.st
+
+---------------------------------------------------------------------------------------------
+
+CSS COLORS
+
+background-color/background
+    setting background color (background-color)
+    setting shorthand, and other properties (background)
+
+color
+    font color 
+
+RGB - 3 values e.g (255,0,0)
+RGBA - 3 values e.g (255,0,0,1), alpha channel, for transparent 
+HEX - #ABDCE
+HSL - (hue, saturation, light)
+
+
+
+---------------------------------------------------------------------------------------------
+
+CSS UNITS
+
+Absolute length units 
+    px
+        - dont use in font size
+        - use in borders and such
+    
+percentage 
+    - size is relative to the parent
+    - mostly used in width
+
+RELATIVE length
+rem
+    - root size of what ever element, it uses root element or default browser
+    - uses in font size
+    - font size of the root element
+
+em
+    - relative to the rem or root element/default browser
+    - uses for margin and padding
+    - font size of the parent
+
+ch
+    - characters per width
+
+
+BOX MODEL
+
+reset para ikaw mag design 
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:content-box
+        the size setting is for the content only
+        border-box : help calculate the border and padding
+}
+
+---------------------------------------------------------------------------------------------
+
+Typography
+text-decoration
+text-transform
+text-align
+line-height
+
+---------------------------------------------------------------------------------------------
+DISPLAY PROPERTY
+ cannot put margin top and height in inline elements
+ using display:inline-block property helps inline elements, allows some properties
+    can be length in to a button or rows, turning list into a row 
+
+
+display:float
+    displays text around it, wrappping
+
+position:
+    absolute
+        -needs a relative parent, or an ancestor parent
+    relative
+    fixed
+
+position
+sticky
+
+
+DISPLAY: FLEX
