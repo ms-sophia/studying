@@ -123,3 +123,18 @@ sticky
 
 
 DISPLAY: FLEX
+
+
+grid layout
+disply: grid
+grid-auto-flow: column or row // basi
+or
+grid-template-columns: 2fr 1fr 2fr
+instead of specifying
+use shortcut: grid-template-columns:
+ repeat(2,1fr, 2fr) - has now 4 columns, first 1fr thens second 2fr
+ grid-auto-rows: 200px; or ,grid-auto-rows:minmax(150px,auto)
+    will not get small a piece of 150px per row
+
+shortcut for grid-column or row:
+grid-column: 1/4: start at the frist line and end  of the 4 
