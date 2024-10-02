@@ -1,36 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    min-height: 200vh;
-    padding: 20px;
+body {
+  min-height: 200vh;
+  padding: 20px;
 }
 
-.container{
-    max-width: 800px;
-    max-height: 400px;
-    margin-inline: auto ;
-    border: 1px solid salmon;
-    display: flex;
-    justify-content:;
-align-items: center;
-    gap: 1rem;
-    flex-flow: row wrap;
-
+.container {
+  max-width: 800px;
+  max-height: 400px;
+  margin-inline: auto;
+  border: 1px solid salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-flow: row wrap;
 }
 
-
-.box{
-    min-width: 100px;
-    height: 100px;
-    background-color: #000;
-    color: #fff;
-    font-size: 2rem;
-    padding: 0.5rem;
+.box {
+  min-width: 100px;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem;
 }
