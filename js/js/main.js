@@ -24,5 +24,11 @@ console.log(filteredPosts);
 const mappedPosts = filteredPosts.map(post => {
     return post.id * 10;
 });
-
 console.log(mappedPosts)
+
+// * 4)REDUCE
+// ** not just refering to individual post but also the accumulator
+const reducedPost = mappedPosts.reduce((sum, post) => {
+    return sum + post;
+});
+console.log(reducedPost);
